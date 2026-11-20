@@ -171,7 +171,7 @@ export function HeroInspiration({
   ];
 
   return (
-    <section className="relative w-full min-h-[680px] sm:min-h-[720px] lg:h-[760px] xl:h-[780px] h-auto py-14 sm:py-20 lg:py-0 flex items-center justify-center overflow-hidden bg-slate-950 text-white">
+    <section className="relative w-full h-[660px] sm:h-[700px] lg:h-[740px] xl:h-[760px] flex items-center justify-center overflow-hidden bg-slate-950 text-white">
 
       {/* ═══ BACKGROUND SLIDES ═══ */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden bg-slate-950">
@@ -205,10 +205,12 @@ export function HeroInspiration({
                 <img
                   src={slide.image}
                   alt={slide.alt}
+                  width={500}
+                  height={660}
                   fetchPriority="high"
                   loading="eager"
-                  decoding="sync"
-                  className="w-full h-full object-cover object-center"
+                  decoding="async"
+                  className="w-full h-full object-cover object-center absolute inset-0"
                 />
               ) : (
                 <Image
@@ -250,7 +252,7 @@ export function HeroInspiration({
 
           {/* Main Headline (fixed min-height across all slides so text wrap never causes layout shift) */}
           <div
-            className={`min-h-[105px] sm:min-h-[120px] lg:min-h-[140px] flex flex-col justify-center transition-all duration-400 ${
+            className={`min-h-[115px] sm:min-h-[125px] lg:min-h-[140px] flex flex-col justify-center transition-all duration-400 ${
               animating ? "opacity-0 translate-y-3" : "opacity-100 translate-y-0"
             }`}
           >
@@ -264,7 +266,7 @@ export function HeroInspiration({
 
           {/* Subtitle (fixed min-height across all slides to eliminate CLS) */}
           <div
-            className={`min-h-[75px] sm:min-h-[64px] flex items-center transition-all duration-400 ${
+            className={`min-h-[76px] sm:min-h-[64px] flex items-center transition-all duration-400 ${
               animating ? "opacity-0 translate-y-2" : "opacity-100 translate-y-0"
             }`}
           >

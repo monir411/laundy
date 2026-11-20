@@ -75,7 +75,7 @@ export const BusinessIntro: React.FC<BusinessIntroProps> = ({
                 <Leaf className="w-5 h-5" />
               </div>
               <div>
-                <h4 className="text-sm font-bold text-navy-900">Committed to Green Technology</h4>
+                <p className="text-sm font-bold text-navy-900">Committed to Green Technology</p>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
                   We work hard to deliver laundry that is not just spotlessly clean and immaculately ironed, but environmentally responsible. We utilize eco-friendly ECOS detergents, allergy-free hypoallergenic solutions, and non-chlorine Oxi-Clean upon request.
                 </p>

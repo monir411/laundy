@@ -47,11 +47,11 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <>
       <header
-        className={`sticky top-0 z-40 bg-white transition-all duration-200 ${
-          scrolled ? "shadow-md py-3 border-b border-slate-100" : "py-4 border-b border-slate-100"
+        className={`sticky top-0 z-40 bg-white h-[68px] sm:h-[72px] flex items-center border-b border-slate-100 transition-shadow duration-200 ${
+          scrolled ? "shadow-md" : "shadow-none"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link

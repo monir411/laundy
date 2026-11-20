@@ -75,9 +75,9 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Column 2: Quick Links */}
           <div>
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
+            <p className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Quick Links
-            </h4>
+            </p>
             <ul className="space-y-2.5 text-xs text-slate-300">
               <li><Link href="/" className="hover:text-blue-300 transition-colors">Home</Link></li>
               <li><Link href="/services" className="hover:text-blue-300 transition-colors">All Services Catalog</Link></li>
@@ -95,9 +95,9 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Column 3: Our Services */}
           <div>
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
+            <p className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Our Services
-            </h4>
+            </p>
             <ul className="space-y-2.5 text-xs text-slate-300">
               <li><Link href="/wash-fold" className="hover:text-blue-300 transition-colors">Wash & Fold</Link></li>
               <li><Link href="/commercial-laundry" className="hover:text-blue-300 transition-colors">Commercial Laundry</Link></li>
@@ -110,9 +110,9 @@ export const Footer: React.FC<FooterProps> = ({
 
           {/* Column 4: Contact Us */}
           <div className="space-y-3.5">
-            <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
+            <p className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Contact Us
-            </h4>
+            </p>
             <div className="flex items-start gap-2.5 text-xs text-slate-300">
               <Phone className="w-4 h-4 text-blue-300 shrink-0 mt-0.5" />
               <a href={`tel:${phoneRaw}`} className="hover:text-white font-semibold">

@@ -42,7 +42,7 @@ export const CommercialFeature: React.FC<CommercialFeatureProps> = ({
                 <div className="w-8 h-8 rounded-lg bg-sky-50 text-sky-600 flex items-center justify-center mb-2.5">
                   <TrendingUp className="w-4 h-4" />
                 </div>
-                <h4 className="text-sm font-bold text-navy-900">1,000,000+ Lbs/Year</h4>
+                <h3 className="text-sm font-bold text-navy-900">1,000,000+ Lbs/Year</h3>
                 <p className="text-xs text-slate-500 mt-1">High-volume capacity built for massive hospitality, institutional, and athletic demands.</p>
               </div>
 
@@ -50,7 +50,7 @@ export const CommercialFeature: React.FC<CommercialFeatureProps> = ({
                 <div className="w-8 h-8 rounded-lg bg-sky-50 text-sky-600 flex items-center justify-center mb-2.5">
                   <ShieldCheck className="w-4 h-4" />
                 </div>
-                <h4 className="text-sm font-bold text-navy-900">OSHA & JCAHO Standards</h4>
+                <h3 className="text-sm font-bold text-navy-900">OSHA & JCAHO Standards</h3>
                 <p className="text-xs text-slate-500 mt-1">Operating under universal precautions with rigorous thermal and chemical disinfection.</p>
               </div>
 
@@ -58,7 +58,7 @@ export const CommercialFeature: React.FC<CommercialFeatureProps> = ({
                 <div className="w-8 h-8 rounded-lg bg-sky-50 text-sky-600 flex items-center justify-center mb-2.5">
                   <Users className="w-4 h-4" />
                 </div>
-                <h4 className="text-sm font-bold text-navy-900">Dedicated Account Specialist</h4>
+                <h3 className="text-sm font-bold text-navy-900">Dedicated Account Specialist</h3>
                 <p className="text-xs text-slate-500 mt-1">Each commercial account is personally managed to ensure reliable par inventory.</p>
               </div>
 
@@ -66,7 +66,7 @@ export const CommercialFeature: React.FC<CommercialFeatureProps> = ({
                 <div className="w-8 h-8 rounded-lg bg-sky-50 text-sky-600 flex items-center justify-center mb-2.5">
                   <Sparkles className="w-4 h-4" />
                 </div>
-                <h4 className="text-sm font-bold text-navy-900">Extended Textile Lifespan</h4>
+                <h3 className="text-sm font-bold text-navy-900">Extended Textile Lifespan</h3>
                 <p className="text-xs text-slate-500 mt-1">Advanced chemistry that protects delicate fibers and preserves costly linen investments.</p>
               </div>
             </div>

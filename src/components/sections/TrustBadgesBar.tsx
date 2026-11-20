@@ -45,9 +45,9 @@ export const TrustBadgesBar: React.FC = () => {
                   <Icon className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900 leading-tight">
+                  <p className="text-xs font-bold text-slate-900 leading-tight">
                     {p.title}
-                  </h4>
+                  </p>
                   <p className="text-[11px] text-slate-500 mt-0.5 leading-tight">
                     {p.subtitle}
                   </p>
